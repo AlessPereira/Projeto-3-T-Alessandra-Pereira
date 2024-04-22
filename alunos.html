@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
 </head>
 <body>
     <div>
@@ -15,6 +16,63 @@
         <a href="turma.html">Turmas</a>
     </div>
     <h1>Lista de alunos</h1>
-    
+    <p>
+        <label for="ialunos">Alunos:</label>
+        <select name="alunos" id="ialunos">
+            <option value="opcao">Excolha um aluno</option>
+            <optgroup label="Masculino"> 
+                <option value="p">Pedro</option>
+                <option value="h">Henrique</option> 
+                <option value="m">Marcus</option>
+                <option value="t">Tiago</option>
+                <option value="e">Emanuel</option> 
+                <option value="j">Jake</option> 
+                <option value="w">Willy</option> 
+                <option value="r">Rogers</option> 
+                <option value="k">Keny</option> 
+                <option value="r">Rafael</option> 
+                <option value="e">Eder</option> 
+                <option value="j">João</option> 
+                <option value="c">Carlos</option>   
+                <option value="r">Ricardo</option> 
+                <option value="v">Vilder</option> 
+            </optgroup>
+            <optgroup label="Femenino">
+                <option value="a">Ana</option>
+                <option value="m">Maria</option> 
+                <option value="d">Dailene</option>
+                <option value="t">Tannya</option>
+                <option value="j">Jeovana</option> 
+                <option value="m">Melissa</option> 
+                <option value="m">Mayla</option> 
+                <option value="n">Nayla</option> 
+                <option value="a">Asha</option> 
+                <option value="v">Vitoria</option> 
+                <option value="l">Larissa</option> 
+                <option value="n">Nancy</option> 
+                <option value="s">Silvia</option>   
+                <option value="t">Taissa</option> 
+                <option value="a">Ailine</option> 
+             </optgroup>
+         </select>
+    </p>
+    <h2>Adicione um novo aluno</h2>
+    <p>
+        <label for="inome"> Nome do aluno:</label>
+        <input type="text" name="Nome" id="inome" required placeholder="nome">
+    </p>
+    <p>
+        <label for="idia">Dia</label>
+        <input type="date" name="dia" id="idia">
+    </p>
+    <p>
+        <label for="iendereso"> Endereso:</label>
+        <input type="text" name="endereso" id="iendereso" required placeholder="Endereso">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+    </p>
+
 </body>
 </html>

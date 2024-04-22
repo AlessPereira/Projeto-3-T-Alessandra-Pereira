@@ -14,5 +14,56 @@
         <a href="prof.html">Professores</a>
         <a href="turma.html">Turmas</a>
     </div>
+    <h1>Lista de Professores</h1>
+    <p>
+        <label for="iProfessore">Professores:</label>
+        <select name="Professore" id="iProfessore">
+            <option value="opcao">Excolha um Professore</option>
+            <optgroup label="Masculino"> 
+                <option value="a">Anderson Pires</option>
+                <option value="o">Orlando Andrade</option> 
+                <option value="o">Odair Cruz</option>
+                <option value="j">Jose luis Fortes</option>
+                <option value="d">Dirceu Rocha</option> 
+                <option value="l">Luiz Graça</option> 
+                 
+            </optgroup>
+            <optgroup label="Femenino">
+                <option value="a">Arlinda Falcão</option>
+                <option value="m">Jennifer Dias</option> 
+                <option value="d">Katia Fortes</option>
+                <option value="t">Albertina Chantre</option>
+                <option value="j">Ana Segredo</option> 
+                <option value="m">Vanda Santos</option> 
+                
+             </optgroup>
+         </select>
+    </p>
+    <h2>Adicione um novo Professore</h2>
+    <p>
+        <label for="inome"> Nome do  Professore:</label>
+        <input type="text" name="Nome" id="inome" required placeholder="nome">
+    </p>
+    <label for="idisciplina">Disciplina:</label>
+        <select name="disciplina" id="idisciplina">
+            <option value="opcao">Excolha uma disciplina</option>
+                <option value="a">Matematica</option>
+                <option value="o">Filosofia</option> 
+                <option value="o">Utilização de computador</option>
+                <option value="j">Fisica</option>
+                <option value="d">Quimica</option> 
+                <option value="l">Lingua Portuguesa</option>
+         </select>
+    </p>
+   <p>
+    <label for="icintato">Contato</label>
+    <input type="tel" name="tel" id="itel" placeholder="(238)xxx xx xx" pattern="^[0-9]{3}-[0-9]-[0-9]-[0-9] $">{}
+   </p>
+    
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+    </p>
+
 </body>
 </html>

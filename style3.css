@@ -24,16 +24,17 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  body{
-    background-color: black;
-    color: white;
-  }
   h1{
     text-align: center;
     text-decoration: dashed;
     color: linear-gradient(to bottom, rgb(255,65, 0), rgb(255, 165, 0));;
+    font-family: Roboto Condensed;
+    font-size: larger;
+  }
+  p{
+    background-color: black;
+    color: white;
   }
   a{
     color: white;
   }
-  
